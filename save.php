@@ -315,7 +315,7 @@ $pic="img/". $_FILES["photo"]["name"];
                 html2canvas(document.getElementById("container")).then(canvas => {
                 var img = canvas.toDataURL("image/png");
                 var doc = new jsPDF("p", "mm", [149,189]);
-                doc.addImage(img, 'png', -1.5, 0, 150, 189);
+                doc.addImage(img, 'png', 0, 0, 150, 189);
                 doc.save("Resume.pdf");
             })
             }
