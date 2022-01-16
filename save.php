@@ -254,8 +254,8 @@ $pic="img/". $_FILES["photo"]["name"];
         <script src="dist/jquery.min.js"></script>
         <script src="dist/jspdf.min.js"></script>
         <script src="dist/html2canvas.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
         <script>
             setTimeout(() => {
                 $(".loader").fadeOut(500);
@@ -319,7 +319,7 @@ $pic="img/". $_FILES["photo"]["name"];
                 doc.save("Resume.pdf");
             })
             }
-            function genPhoto(){
+          /*  function genPhoto(){
               var node = document.getElementById("container");
               domtoimage.toPng(node).then(function (dataUrl){
                 var img = new Image();
@@ -335,7 +335,7 @@ $pic="img/". $_FILES["photo"]["name"];
                 a.click();
               /*  document.body.removeChild(a);
                 delete a;*/
-            }
+            }*/
         </script>
     </body>
     <!-- All Created by Qasim Sarwari -->
