@@ -331,7 +331,7 @@ $pic="img/". $_FILES["photo"]["name"];
               var a = document.createElement("a");
                 a.download = name;
                 a.href = uri;
-                document.body.appendChild(a);
+               // document.body.appendChild(a);
                 a.click();
               /*  document.body.removeChild(a);
                 delete a;*/
