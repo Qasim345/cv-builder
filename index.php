@@ -110,7 +110,7 @@
                 <!-- language -->
                 <div id="langs">
                   <input type="text" name="lang1" class="langN" placeholder="language"/>
-                <input type="number" name="langPer1" placeholder="Percentage %">
+                <input type="number" name="langPre1" placeholder="Percentage %">
                 </div>
                 <div id="langs">
                 <input type="text" name="lang2" class="langN" placeholder="language">
