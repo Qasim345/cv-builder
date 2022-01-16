@@ -23,7 +23,7 @@
   <meta content="Resume builder" property="og:title" />
   <meta content="A online and free Resume builder to generated a modern Resume by own in secounds. created by Qasim Sarwari." property="og:description" />
   <meta property="og:url" content="https://cv-builder-af.herokuapp.com" />
-  <meta property="og:site_name" content="Resume Builder" />
+  <meta property="og:site_name" content="Resume builder" />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#233966" />
   <link rel="manifest" href="manifest.json" />
