@@ -319,15 +319,14 @@ $pic="img/". $_FILES["photo"]["name"];
                 doc.save("Resume.pdf");
             })
             }
-          /*  function genPhoto(){
-              var node = document.getElementById("container");
-              domtoimage.toPng(node).then(function (dataUrl){
-                var img = new Image();
-                img.src = dataUrl;
-                downloadUrl(dataUrl,"Resume.png");
+           function genPhoto(){
+              html2canvas($("#container")).then(canvas=>{
+                
+                var img = canvas.toDataURL("image/png");
+                $("#imgLink").attr("href",img);
               });
             }
-              function downloadUrl(uri,name){
+             /* function downloadUrl(uri,name){
               var a = document.createElement("a");
                 a.download = name;
                 a.href = uri;
