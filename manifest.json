@@ -1,7 +1,7 @@
 {
-  "name": "Resume Builder",
-  "short_name": "Free Resume Builder",
-  "strt_url": "/"
+  "name": "Free Resume Builder",
+  "short_name": "Resume Builder",
+  "strt_url": "/",
   "background_color": "#fff",
   "theme_color": "#233966",
   "display": "standalone",
