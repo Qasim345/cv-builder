@@ -15,7 +15,6 @@
     <link rel="manifest" href="manifest.json" />
     <link rel="apple-touch-icon" href="dist/logo.png" />
     <link rel="shortcut icon" href="dist/logo.png" type="image/x-icon" />
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="dist/style.css">
     <link rel="stylesheet" href="dist/animate.css" type="text/css" media="all" />
     <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">-->
