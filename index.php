@@ -25,7 +25,6 @@
   <meta property="og:url" content="https://cv-builder-af.herokuapp.com" />
   <meta property="og:site_name" content="Resume Builder" />
   <meta property="og:type" content="website" />
-  <!-- seo -->
   <meta name="theme-color" content="#233966" />
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="dist/logo.png" />
