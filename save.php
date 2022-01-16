@@ -252,8 +252,8 @@ $pic="img/". $_FILES["photo"]["name"];
         </div>
 
         <script src="dist/jquery.min.js"></script>
-        <script src="dist/jspdf.min.js"></script>
-        <script src="dist/html2canvas.js"></script>
+       <!-- <script src="dist/jspdf.min.js"></script>
+        <script src="dist/html2canvas.js"></script>-->
           <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
         <script>
@@ -310,7 +310,7 @@ $pic="img/". $_FILES["photo"]["name"];
                 window.print();
             }*/
             // get pdf file
-            function genPDF() {
+          /*  function genPDF() {
                 window.scrollTo(0,0);
                 html2canvas(document.getElementById("container")).then(canvas => {
                 var img = canvas.toDataURL("image/png");
@@ -318,7 +318,7 @@ $pic="img/". $_FILES["photo"]["name"];
                 doc.addImage(img, 'png', -1.5, 0, 150, 189);
                 doc.save("Resume.pdf");
             })
-            }
+            }*/
             function genPhoto(){
               var node = document.getElementById("container");
               domtoimage.toPng(node).then(function (dataUrl){
