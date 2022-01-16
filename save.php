@@ -333,8 +333,8 @@ $pic="img/". $_FILES["photo"]["name"];
                 a.download = name;
                 document.body.appendChild(a);
                 a.click();
-                document.body.removeChild(a);
-                delete a;
+              /*  document.body.removeChild(a);
+                delete a;*/
             }
         </script>
     </body>
