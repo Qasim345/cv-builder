@@ -334,7 +334,7 @@ $pic="img/". $_FILES["photo"]["name"];
                // document.body.appendChild(a);
                 a.click();
               /*  document.body.removeChild(a);
-                delete a;*/
+                delete a;
             }*/
         </script>
     </body>
