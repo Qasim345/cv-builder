@@ -320,7 +320,7 @@ $pic="img/". $_FILES["photo"]["name"];
             })
             }
             function genPhoto(){
-              var a = document.getElementById("imgLink");
+              var a = document.createElement("a");
               var node = document.getElementById("container");
               domtoimage.toPng(node).then(function (dataUrl){
                 var img = new Image();
