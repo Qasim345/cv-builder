@@ -6,7 +6,7 @@
   "theme_color": "#233966",
   "display": "standalone",
   "icons": [{
-    "src": "img/logo.png",
+    "src": "dist/logo.png",
     "size": "198/198",
     "type": "image/png"
   }]
