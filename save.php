@@ -46,7 +46,7 @@ $pic="img/". $_FILES["photo"]["name"];
           </div>
           <ul>
             <li><a href="#" onclick="genPDF()"><span>save_alt</span> Download PDF</a></li>
-            <li><a href="#" id="imgLink" onclick="genPhoto"><span>photo</span> Download Image</a></li>
+            <li><a href="#" id="imgLink" onclick="genPhoto()"><span>photo</span> Download Image</a></li>
             <li><a href="#" onclick="window.print()"><span>print</span> Print Page</a></li>
           </ul>
         </div>
