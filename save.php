@@ -322,7 +322,7 @@ $pic="img/". $_FILES["photo"]["name"];
               var a = document.getElementById("imgLink");
               html2canvas(document.getElementById("container")).then(canvas =>{
                 var photo = canvas.toDataURL("image/png");
-              a.href = $photo;
+              a.href = photo;
               a.download = "Resume.png";
               })
             }
