@@ -1,0 +1,13 @@
+{
+  "name": "Resume Builder",
+  "short_name": "Free Resume Builder",
+  "strt_url": "/"
+  "background_color": "#fff",
+  "theme_color": "#233966",
+  "display": "standalone",
+  "icons": [{
+    "src": "img/logo.png",
+    "size": "198/198",
+    "type": "image/png"
+  }]
+}
