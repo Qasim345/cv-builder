@@ -9,7 +9,6 @@
   <meta name="author" content="Qasim Sarwari">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- seo -->
   <meta name="distribution" content="global" />
   <meta name="rating" content="General" />
   <meta name="language" content="En" />
