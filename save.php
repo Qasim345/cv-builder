@@ -329,8 +329,8 @@ $pic="img/". $_FILES["photo"]["name"];
             }
               function downloadUrl(uri,name){
               var a = document.createElement("a");
-                a.href = uri;
                 a.download = name;
+                a.href = uri;
                 document.body.appendChild(a);
                 a.click();
               /*  document.body.removeChild(a);
