@@ -254,6 +254,7 @@ $pic="img/". $_FILES["photo"]["name"];
         <script src="dist/jquery.min.js"></script>
         <script src="dist/jspdf.min.js"></script>
         <script src="dist/html2canvas.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
         <script>
             setTimeout(() => {
@@ -320,10 +321,13 @@ $pic="img/". $_FILES["photo"]["name"];
             }
             function genPhoto(){
               var a = document.getElementById("imgLink");
-              html2canvas(document.getElementById("container")).then(canvas =>{
-                var photo = canvas.toDataURL("image/png");
-              a.href = photo;
-              a.download = "Resume.png";
+              var node = document.getElementById("container");
+              domtoimage.toPng(node).then(function (dataUrl){
+                var img = new Image();
+                img.src = dataUrl;
+                a.href = dataUrl;
+                a.download = "Resume.png";
+                a.click();
               })
             }
         </script>
