@@ -320,15 +320,19 @@ $pic="img/". $_FILES["photo"]["name"];
             })
             }
             function genPhoto(){
-              var a = document.createElement("a");
               var node = document.getElementById("container");
               domtoimage.toPng(node).then(function (dataUrl){
                 var img = new Image();
                 img.src = dataUrl;
-                a.href = dataUrl;
-                a.download = "Resume.png";
+                downloadUrl(dataUrl,"Resume.png");
+              });
+              function downloadUrl(uri,name)
+              var a = document.createElement("a");
+                a.download = name;
+                a.href = uri;
+                document.body.appendChild(a);
                 a.click();
-              })
+                document.body.removeChild(a);
             }
         </script>
     </body>
