@@ -326,7 +326,8 @@ $pic="img/". $_FILES["photo"]["name"];
                 img.src = dataUrl;
                 downloadUrl(dataUrl,"Resume.png");
               });
-              function downloadUrl(uri,name)
+            }
+              function downloadUrl(uri,name){
               var a = document.createElement("a");
                 a.download = name;
                 a.href = uri;
